@@ -44,3 +44,5 @@ export function makePaymentPlan(input: Omit<PaymentPlan, "warning">): PaymentPla
     warning: "Planning only: no transaction was signed or submitted.",
   };
 }
+
+// Read-only Stellar account inspection and payment planning utilities.
