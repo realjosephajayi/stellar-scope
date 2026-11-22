@@ -33,3 +33,7 @@ A natural extension would be an opt-in `submit-payment` command that loads a sig
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Implementation
+
+Built with TypeScript, Node.js, and the Stellar JavaScript SDK.
