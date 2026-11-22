@@ -1,0 +1,24 @@
+{
+  "name": "stellar-scope",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A safe TypeScript CLI for inspecting Stellar accounts and planning payments",
+  "type": "module",
+  "bin": { "stellar-scope": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "check": "npm run build && npm test"
+  },
+  "keywords": ["stellar", "typescript", "blockchain", "horizon", "cli"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/YOUR_USERNAME/stellar-scope.git" },
+  "dependencies": { "@stellar/stellar-sdk": "^17.4.0" },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
